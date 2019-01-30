@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ca.sheridancollege.week1.softwarefundamentals;
 
-/**
- *
- * @author test
- */
 public class Student {
 
     private int ID;
@@ -17,11 +9,6 @@ public class Student {
     
     private String Address;
   
-     /**
-     * Get the value of Address
-     *
-     * @return the value of Address
-     */
     public String getAddress() {
         return Address;
     }
@@ -47,6 +34,26 @@ public class Student {
         this.name = name;
         this.ID = ID;
     }
+    private String email;
+
+    /**
+     * Get the value of email
+     *
+     * @return the value of email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * Set the value of email
+     *
+     * @param email new value of email
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
 
     /**
      * Set the value of ID
@@ -55,9 +62,7 @@ public class Student {
      */
     public void setID(int ID) {
         this.ID = ID;
-    }
-   
-
+    }  
     /**
      * Get the value of string
      *
@@ -66,7 +71,6 @@ public class Student {
     public String getName() {
         return name;
     }
-
     /**
      * Set the value of string
      *
@@ -74,7 +78,5 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
-    }
-
-    
+    }  
 }
