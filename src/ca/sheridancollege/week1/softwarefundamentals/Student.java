@@ -6,6 +6,17 @@ public class Student {
     private int ID;
     private String name;
     private String Phone;
+    private String PartTime;
+
+    /**
+     * Get the value of PartTime
+     *
+     * @return the value of PartTime
+     */
+    public String getPartTime() {
+        return PartTime;
+    }
+
   private String Vishwa;
         private int DOB;
     
