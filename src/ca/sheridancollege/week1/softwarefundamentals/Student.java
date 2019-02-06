@@ -17,6 +17,17 @@ public class Student {
         return PartTime;
     }
 
+    private String partTimr;
+
+    /**
+     * Set the value of partTimr
+     *
+     * @param partTimr new value of partTimr
+     */
+    public void setPartTimr(String partTimr) {
+        this.partTimr = partTimr;
+    }
+
   private String Vishwa;
         private int DOB;
     
