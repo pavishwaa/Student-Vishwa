@@ -7,6 +7,7 @@ public class Student {
     private String name;
     private String Phone;
   private String Vishwa;
+        private int DOB;
     
     private String Address;
   
