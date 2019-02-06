@@ -6,7 +6,7 @@ public class Student {
     private int ID;
     private String name;
     private String Phone;
-    private date aaa;
+  private String Vishwa;
     
     private String Address;
   
