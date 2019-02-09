@@ -7,7 +7,7 @@ public class Student {
     private String name;
     private String Phone;
     private String PartTime;
-
+string name;
     /**
      * Get the value of PartTime
      *
